@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.time.Duration;
 
@@ -50,6 +51,6 @@ public class TestConfig {
     }
 
     public static String getBaseUrl() {
-        return "http://localhost:8080"; // Замените на актуальный URL демо Report Portal
+        return "https://demo.reportportal.io/ui/#login";
     }
 }
