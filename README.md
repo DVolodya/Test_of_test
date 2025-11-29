@@ -32,7 +32,7 @@ report-portal-tests/
 
 1. Клонируйте репозиторий:
 ``` bash
-git clone https://github.com/your-username/report-portal-tests.git
+git clone https://github.com/DVolodya/Test_of_test
 cd report-portal-tests
 
 2. Соберите проект:
